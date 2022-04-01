@@ -22,6 +22,13 @@ This device divides the input into segments, and plays these segments back. It c
 
 Original gen~ code by	Graham Wakefield
 
+### **Chorus** - *Chorus with various modes and flavors*
+Chorus is a multi-mode modulation effect. The digital mode is based on an 8-stage chorus with different delay and modulation settings for each voice. The analog and lofi modes are single-stage modulators with analog using a sine wave LFO and lofi using a triangle LFO along with additional wow/flutter modulation, compression, filtering, and saturation.
+
+Delay line saturation based on Tom Szilagyi's TapTubeWarmth. Taken from adaptation in stkr waveshaping library.
+http://tap-plugins.sourceforge.net/ladspa/tubewarmth.html
+https://cycling74.com/tools/stkr-waveshaping/
+
 ### **Cloud** - *Real-time audio granulator*
 Cloud takes incoming audio and writes tiny grains to a buffer while simultaneously playing back a cloud of grains from the same buffer. Creating a "real-time" granularization effect using the last 1 second of collected fragments.
 
