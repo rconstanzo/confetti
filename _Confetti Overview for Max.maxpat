@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 3,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 281.0, 110.0, 1245.0, 980.0 ],
+		"rect" : [ 179.0, 79.0, 1245.0, 919.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,7 @@
 		"subpatcher_template" : "",
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-3",
@@ -49,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 3,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -83,6 +84,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [  ],
 						"lines" : [  ]
 					}
@@ -109,14 +111,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 3,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1245.0, 954.0 ],
+						"rect" : [ 0.0, 26.0, 1245.0, 893.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -144,6 +146,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -467,6 +470,7 @@
 									"id" : "obj-3",
 									"linecount" : 3,
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 4,
@@ -550,60 +554,6 @@
 														"filepath" : "~/Sync/Files/Max/Snapshots",
 														"filepos" : -1,
 														"snapshotfileid" : "05c8c90778b7beeab5ecd3dc4be3a140"
-													}
-
-												}
-, 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Dirt.amxd",
-													"origin" : "Dirt.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 0,
-													"fileref" : 													{
-														"name" : "Dirt.amxd",
-														"filename" : "Dirt.amxd_20200218.maxsnap",
-														"filepath" : "~/Sync/Files/Max/Snapshots",
-														"filepos" : -1,
-														"snapshotfileid" : "7ffba3fbd70e8b71fef9f7de6fa259b6"
-													}
-
-												}
-, 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Dirt.amxd",
-													"origin" : "Dirt.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 0,
-													"fileref" : 													{
-														"name" : "Dirt.amxd",
-														"filename" : "Dirt.amxd_20200314.maxsnap",
-														"filepath" : "~/Sync/Files/Max/Snapshots",
-														"filepos" : -1,
-														"snapshotfileid" : "9d5fcba8a30480bb3e87a9675d3be172"
-													}
-
-												}
-, 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Dirt.amxd",
-													"origin" : "Dirt.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 0,
-													"fileref" : 													{
-														"name" : "Dirt.amxd",
-														"filename" : "Dirt.amxd_20200218-CONFLICT-1.maxsnap",
-														"filepath" : "~/Sync/Files/Max/Snapshots",
-														"filepos" : -1,
-														"snapshotfileid" : "b247890268a8b2771807d7cacdab166e"
 													}
 
 												}
@@ -700,6 +650,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-19",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "demosound.maxpat",
 									"numinlets" : 0,
@@ -722,6 +673,7 @@
 									"id" : "obj-18",
 									"linecount" : 3,
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 10,
@@ -765,6 +717,7 @@
 													"CentroidRise" : 10.0,
 													"CentroidScale" : 100.0,
 													"CentroidShift" : 0.0,
+													"Floor" : -70.0,
 													"Length" : 64.0,
 													"Lockout" : 30.0,
 													"LoudnessAutoRange" : 0.0,
@@ -810,6 +763,7 @@
 																"CentroidRise" : 10.0,
 																"CentroidScale" : 100.0,
 																"CentroidShift" : 0.0,
+																"Floor" : -70.0,
 																"Length" : 64.0,
 																"Lockout" : 30.0,
 																"LoudnessAutoRange" : 0.0,
@@ -930,6 +884,7 @@
 									"id" : "obj-8",
 									"linecount" : 3,
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 10,
@@ -973,6 +928,7 @@
 													"CentroidRise" : 10.0,
 													"CentroidScale" : 100.0,
 													"CentroidShift" : 0.0,
+													"Floor" : -70.0,
 													"Length" : 64.0,
 													"Lockout" : 30.0,
 													"LoudnessAutoRange" : 1.0,
@@ -1018,6 +974,7 @@
 																"CentroidRise" : 10.0,
 																"CentroidScale" : 100.0,
 																"CentroidShift" : 0.0,
+																"Floor" : -70.0,
 																"Length" : 64.0,
 																"Lockout" : 30.0,
 																"LoudnessAutoRange" : 1.0,
@@ -1071,6 +1028,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-7",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "demosound.maxpat",
 									"numinlets" : 0,
@@ -1092,6 +1050,7 @@
 									"extract" : 1,
 									"id" : "obj-5",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "bp.Ladder.maxpat",
 									"numinlets" : 5,
@@ -1409,8 +1368,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1461,14 +1420,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 3,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 281.0, 136.0, 1245.0, 954.0 ],
+						"rect" : [ 179.0, 105.0, 1245.0, 893.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1496,7 +1455,22 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-24",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1031.0, 235.5, 101.0, 37.0 ],
+									"presentation_linecount" : 2,
+									"text" : "or enable live updating"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-13",
 									"maxclass" : "ezdac~",
@@ -1638,7 +1612,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 957.0, 229.5, 130.0, 37.0 ],
+									"patching_rect" : [ 957.0, 191.5, 130.0, 37.0 ],
 									"text" : "you can query specific parameters"
 								}
 
@@ -1665,7 +1639,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 972.0, 548.0, 67.0, 22.0 ],
-									"text" : "Activity 70."
+									"text" : "Mode 1."
 								}
 
 							}
@@ -1688,7 +1662,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 854.0, 237.0, 95.0, 22.0 ],
+									"patching_rect" : [ 854.0, 199.0, 95.0, 22.0 ],
 									"text" : "getvalue Activity"
 								}
 
@@ -1707,12 +1681,12 @@
 									"patching_rect" : [ 519.5, 452.5, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "number",
-											"parameter_type" : 0,
-											"parameter_longname" : "number",
+											"parameter_initial" : [ 80 ],
 											"parameter_initial_enable" : 1,
+											"parameter_longname" : "number",
 											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 80 ]
+											"parameter_shortname" : "number",
+											"parameter_type" : 0
 										}
 
 									}
@@ -1744,13 +1718,13 @@
 									"patching_rect" : [ 429.5, 452.5, 24.0, 24.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "toggle",
 											"parameter_enum" : [ "off", "on" ],
-											"parameter_type" : 2,
-											"parameter_longname" : "toggle",
+											"parameter_initial" : [ 1.0 ],
 											"parameter_initial_enable" : 1,
+											"parameter_longname" : "toggle",
 											"parameter_mmax" : 1,
-											"parameter_initial" : [ 1.0 ]
+											"parameter_shortname" : "toggle",
+											"parameter_type" : 2
 										}
 
 									}
@@ -1795,6 +1769,7 @@
 									"id" : "obj-4",
 									"linecount" : 3,
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 4,
@@ -1883,24 +1858,6 @@
 													}
 
 												}
-, 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Resonator.amxd",
-													"origin" : "Resonator.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 0,
-													"fileref" : 													{
-														"name" : "Resonator.amxd",
-														"filename" : "Resonator.amxd-CONFLICT-1.maxsnap",
-														"filepath" : "~/Sync/Files/Max/Snapshots",
-														"filepos" : -1,
-														"snapshotfileid" : "d5a4852c94cb9a9d16a97f8fe63ae088"
-													}
-
-												}
  ]
 										}
 
@@ -1923,6 +1880,7 @@
 									"id" : "obj-3",
 									"linecount" : 3,
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 4,
@@ -1962,7 +1920,7 @@
 												"parameter_values" : 												{
 													"Bass" : 0.0,
 													"Choke" : 0.0,
-													"Gain" : 0.0,
+													"Gain" : 80.0,
 													"Mode" : 0.0,
 													"Preclip" : 0.0,
 													"Treble" : 0.0
@@ -1990,7 +1948,7 @@
 															"parameter_values" : 															{
 																"Bass" : 0.0,
 																"Choke" : 0.0,
-																"Gain" : 0.0,
+																"Gain" : 80.0,
 																"Mode" : 0.0,
 																"Preclip" : 0.0,
 																"Treble" : 0.0
@@ -2006,60 +1964,6 @@
 														"filepath" : "~/Sync/Files/Max/Snapshots",
 														"filepos" : -1,
 														"snapshotfileid" : "05c8c90778b7beeab5ecd3dc4be3a140"
-													}
-
-												}
-, 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Dirt.amxd",
-													"origin" : "Dirt.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 0,
-													"fileref" : 													{
-														"name" : "Dirt.amxd",
-														"filename" : "Dirt.amxd_20200218.maxsnap",
-														"filepath" : "~/Sync/Files/Max/Snapshots",
-														"filepos" : -1,
-														"snapshotfileid" : "7ffba3fbd70e8b71fef9f7de6fa259b6"
-													}
-
-												}
-, 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Dirt.amxd",
-													"origin" : "Dirt.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 0,
-													"fileref" : 													{
-														"name" : "Dirt.amxd",
-														"filename" : "Dirt.amxd_20200314.maxsnap",
-														"filepath" : "~/Sync/Files/Max/Snapshots",
-														"filepos" : -1,
-														"snapshotfileid" : "9d5fcba8a30480bb3e87a9675d3be172"
-													}
-
-												}
-, 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Dirt.amxd",
-													"origin" : "Dirt.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 0,
-													"fileref" : 													{
-														"name" : "Dirt.amxd",
-														"filename" : "Dirt.amxd_20200218-CONFLICT-1.maxsnap",
-														"filepath" : "~/Sync/Files/Max/Snapshots",
-														"filepos" : -1,
-														"snapshotfileid" : "b247890268a8b2771807d7cacdab166e"
 													}
 
 												}
@@ -2085,12 +1989,13 @@
 									"id" : "obj-2",
 									"linecount" : 3,
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "", "" ],
-									"patching_rect" : [ 854.0, 283.0, 195.0, 196.0 ],
+									"patching_rect" : [ 854.0, 283.0, 185.0, 196.0 ],
 									"presentation_linecount" : 3,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
@@ -2105,7 +2010,8 @@
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 1,
 										"patchername" : "Cloud.amxd",
-										"patchername_fallback" : "~/Sync/Patches/Confetti/confetti/Cloud.amxd"
+										"patchername_fallback" : "~/Sync/Patches/Confetti/confetti/Cloud.amxd",
+										"realtime_params" : 1
 									}
 ,
 									"snapshot" : 									{
@@ -2168,64 +2074,10 @@
 ,
 													"fileref" : 													{
 														"name" : "Cloud.amxd",
-														"filename" : "Cloud.amxd-CONFLICT-1.maxsnap",
-														"filepath" : "~/Sync/Files/Max/Snapshots",
-														"filepos" : -1,
-														"snapshotfileid" : "7a717a5a4444b004c5d35b8d01affa70"
-													}
-
-												}
-, 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Cloud.amxd",
-													"origin" : "Cloud.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 0,
-													"fileref" : 													{
-														"name" : "Cloud.amxd",
 														"filename" : "Cloud.amxd.maxsnap",
 														"filepath" : "~/Sync/Files/Max/Snapshots",
 														"filepos" : -1,
 														"snapshotfileid" : "1c1f3e62ec6bbd114bc11e501c566081"
-													}
-
-												}
-, 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Cloud.amxd",
-													"origin" : "Cloud.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 0,
-													"fileref" : 													{
-														"name" : "Cloud.amxd",
-														"filename" : "Cloud.amxd_20200314.maxsnap",
-														"filepath" : "~/Sync/Files/Max/Snapshots",
-														"filepos" : -1,
-														"snapshotfileid" : "4473cb599b924b53a9266659f5cbf8f0"
-													}
-
-												}
-, 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Cloud.amxd",
-													"origin" : "Cloud.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 0,
-													"fileref" : 													{
-														"name" : "Cloud.amxd",
-														"filename" : "Cloud.amxd-CONFLICT-2.maxsnap",
-														"filepath" : "~/Sync/Files/Max/Snapshots",
-														"filepos" : -1,
-														"snapshotfileid" : "1d17af674e1c841518fdaa4691f9e983"
 													}
 
 												}
@@ -2250,6 +2102,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-7",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "demosound.maxpat",
 									"numinlets" : 0,
@@ -2274,6 +2127,19 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 542.0, 12.0, 220.0, 97.0 ],
 									"proportion" : 0.5
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"attr" : "realtime_params",
+									"id" : "obj-23",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 880.0, 243.0, 141.0, 22.0 ],
+									"text_width" : 116.0
 								}
 
 							}
@@ -2326,6 +2192,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-23", 0 ]
 								}
 
 							}
@@ -2447,8 +2320,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2491,40 +2364,40 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-18" : [ "amxd~[4]", "amxd~[3]", 0 ],
-			"obj-2::obj-5::obj-55" : [ "power", "power", 0 ],
-			"obj-2::obj-19::obj-35" : [ "[2]", "Level", 0 ],
-			"obj-2::obj-8" : [ "amxd~[3]", "amxd~[3]", 0 ],
-			"obj-2::obj-5::obj-54" : [ "CV1", "CV1", 0 ],
-			"obj-2::obj-5::obj-22" : [ "TimeMode", "TimeMode", 1 ],
-			"obj-1::obj-7::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-2::obj-19::obj-21::obj-6" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-1::obj-3" : [ "amxd~[1]", "amxd~[1]", 0 ],
 			"obj-1::obj-14" : [ "toggle", "toggle", 0 ],
 			"obj-1::obj-18" : [ "number", "number", 0 ],
-			"obj-2::obj-5::obj-20" : [ "Freq", "Freq", 0 ],
+			"obj-1::obj-2" : [ "amxd~", "amxd~", 0 ],
+			"obj-1::obj-3" : [ "amxd~[1]", "amxd~[1]", 0 ],
+			"obj-1::obj-4" : [ "amxd~[2]", "amxd~[2]", 0 ],
 			"obj-1::obj-7::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-1::obj-7::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-2::obj-18" : [ "amxd~[4]", "amxd~[3]", 0 ],
+			"obj-2::obj-19::obj-21::obj-6" : [ "live.tab[2]", "live.tab[1]", 0 ],
+			"obj-2::obj-19::obj-35" : [ "[2]", "Level", 0 ],
+			"obj-2::obj-3" : [ "amxd~[5]", "amxd~[1]", 0 ],
+			"obj-2::obj-5::obj-20" : [ "Freq", "Freq", 0 ],
+			"obj-2::obj-5::obj-22" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-2::obj-5::obj-23" : [ "CV2", "CV2", 0 ],
 			"obj-2::obj-5::obj-28" : [ "Res", "Res", 0 ],
 			"obj-2::obj-5::obj-4" : [ "Offset", "Offset", 0 ],
-			"obj-1::obj-2" : [ "amxd~", "amxd~", 0 ],
-			"obj-2::obj-7::obj-21::obj-6" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-2::obj-3" : [ "amxd~[5]", "amxd~[1]", 0 ],
-			"obj-1::obj-4" : [ "amxd~[2]", "amxd~[2]", 0 ],
+			"obj-2::obj-5::obj-54" : [ "CV1", "CV1", 0 ],
+			"obj-2::obj-5::obj-55" : [ "power", "power", 0 ],
 			"obj-2::obj-5::obj-63" : [ "CV3", "CV3", 0 ],
-			"obj-2::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"obj-2::obj-5::obj-95" : [ "ResCV", "CV", 0 ],
+			"obj-2::obj-7::obj-21::obj-6" : [ "live.tab[1]", "live.tab[1]", 0 ],
+			"obj-2::obj-7::obj-35" : [ "[1]", "Level", 0 ],
+			"obj-2::obj-8" : [ "amxd~[3]", "amxd~[3]", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-2::obj-19::obj-35" : 				{
-					"parameter_longname" : "[2]"
-				}
-,
 				"obj-2::obj-19::obj-21::obj-6" : 				{
 					"parameter_longname" : "live.tab[2]"
+				}
+,
+				"obj-2::obj-19::obj-35" : 				{
+					"parameter_longname" : "[2]"
 				}
 ,
 				"obj-2::obj-7::obj-21::obj-6" : 				{
@@ -2536,68 +2409,19 @@
 				}
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "demosound.maxpat",
-				"bootpath" : "C74:/help/msp",
-				"type" : "JSON",
+				"name" : "Analysis.amxd",
+				"bootpath" : "~/Sync/Patches/Confetti/confetti",
+				"patcherrelativepath" : ".",
+				"type" : "amxd",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sine.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "saw.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "square.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "interfacecolor.js",
-				"bootpath" : "C74:/interfaces",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Cloud.amxd-CONFLICT-1.maxsnap",
-				"bootpath" : "~/Sync/Files/Max/Snapshots",
-				"patcherrelativepath" : "../../../Files/Max/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Cloud.amxd.maxsnap",
-				"bootpath" : "~/Sync/Files/Max/Snapshots",
-				"patcherrelativepath" : "../../../Files/Max/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Cloud.amxd_20200314.maxsnap",
-				"bootpath" : "~/Sync/Files/Max/Snapshots",
-				"patcherrelativepath" : "../../../Files/Max/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Cloud.amxd-CONFLICT-2.maxsnap",
+				"name" : "Analysis.amxd.maxsnap",
 				"bootpath" : "~/Sync/Files/Max/Snapshots",
 				"patcherrelativepath" : "../../../Files/Max/Snapshots",
 				"type" : "mx@s",
@@ -2611,28 +2435,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Dirt.amxd.maxsnap",
-				"bootpath" : "~/Sync/Files/Max/Snapshots",
-				"patcherrelativepath" : "../../../Files/Max/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dirt.amxd_20200218.maxsnap",
-				"bootpath" : "~/Sync/Files/Max/Snapshots",
-				"patcherrelativepath" : "../../../Files/Max/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dirt.amxd_20200314.maxsnap",
-				"bootpath" : "~/Sync/Files/Max/Snapshots",
-				"patcherrelativepath" : "../../../Files/Max/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dirt.amxd_20200218-CONFLICT-1.maxsnap",
+				"name" : "Cloud.amxd.maxsnap",
 				"bootpath" : "~/Sync/Files/Max/Snapshots",
 				"patcherrelativepath" : "../../../Files/Max/Snapshots",
 				"type" : "mx@s",
@@ -2646,14 +2449,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Resonator.amxd.maxsnap",
-				"bootpath" : "~/Sync/Files/Max/Snapshots",
-				"patcherrelativepath" : "../../../Files/Max/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Resonator.amxd-CONFLICT-1.maxsnap",
+				"name" : "Dirt.amxd.maxsnap",
 				"bootpath" : "~/Sync/Files/Max/Snapshots",
 				"patcherrelativepath" : "../../../Files/Max/Snapshots",
 				"type" : "mx@s",
@@ -2667,63 +2463,26 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.Ladder.maxpat",
-				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Filter",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Analysis.amxd.maxsnap",
+				"name" : "Resonator.amxd.maxsnap",
 				"bootpath" : "~/Sync/Files/Max/Snapshots",
 				"patcherrelativepath" : "../../../Files/Max/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Analysis.amxd",
-				"bootpath" : "~/Sync/Patches/Confetti/confetti",
-				"patcherrelativepath" : ".",
-				"type" : "amxd",
+				"name" : "bp.Ladder.maxpat",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Filter",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "fluid.bufhpss~.mxo",
-				"type" : "iLaX"
+				"name" : "demosound.maxpat",
+				"bootpath" : "C74:/help/msp",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "fluid.buftransients~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufcompose~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "irtrimnorm~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufloudness~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufstats~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "irstats~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sigmund~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufspectralshape~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufpitch~.mxo",
+				"name" : "fluid.ampgate~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -2731,7 +2490,31 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.ampgate~.mxo",
+				"name" : "fluid.bufcompose~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufhpss~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufloudness~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufpitch~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufspectralshape~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufstats~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.buftransients~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -2741,6 +2524,48 @@
 , 			{
 				"name" : "fluid.spectralshape~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "interfacecolor.js",
+				"bootpath" : "C74:/interfaces",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "irstats~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "irtrimnorm~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "saw.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sigmund~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
