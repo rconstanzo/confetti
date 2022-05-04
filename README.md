@@ -87,6 +87,8 @@ https://cycling74.com/tools/stkr-waveshaping/
 ### **Pitch** - *Glitchmy 'Whammy'-style pitch shifting*
 This device uses pitch-synchronous overlap-add (PSOLA) to create time-based pitch shifting in a glitchy and imperfect manner in an effort to sound like the Digitech Whammy Pedal. The presets correspond with the Whammy Pedal presets in terms of range and direction of the intervals. The Clean mode only updates the delay window on incoming onsets for a more fluid sound, with the Dirty mode updating the window constantly, creating a glitchier sound.
 
+v1.1 adds additional control modes for automatic (based on onset detection) as well as random pitch shifting.
+
 This device uses:
 FluCoMa toolbox - http://www.flucoma.org
 
@@ -97,6 +99,9 @@ All of the partials are slightly randomized based on the envelope settings to cr
 
 This device uses:
 FluCoMa toolbox - http://www.flucoma.org
+
+### **Skipper** - *Automatic skipping CD simulation*
+Create a "skipping CD"-inspired repeater/delay where whenever an attack is detected it causes the "CD Player" to skip and seek around the recently played audio. There are two models to choose from which are the Sony D2 and D121 Discmans. The seek speed, jumping amount, and glitch samples where analyzed and captured from physical Discman that I own.
 
 ### **Tremolo** - *Tremolo with VCA and LPG modes*
 Tremolo is a combination of a VCA and LPG-based tremolo with some simple waveshapping on the LFOs.
