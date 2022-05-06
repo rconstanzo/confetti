@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -111,14 +111,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1245.0, 893.0 ],
+						"rect" : [ 179.0, 105.0, 1245.0, 893.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -510,7 +510,7 @@
 												"parameter_values" : 												{
 													"Bass" : 60.0,
 													"Choke" : 8.0,
-													"Gain" : 5.869615999831884,
+													"Gain" : 25.948066401486926,
 													"Mode" : 1.0,
 													"Preclip" : 0.0,
 													"Treble" : 90.0
@@ -538,7 +538,7 @@
 															"parameter_values" : 															{
 																"Bass" : 60.0,
 																"Choke" : 8.0,
-																"Gain" : 5.869615999831884,
+																"Gain" : 25.948066401486926,
 																"Mode" : 1.0,
 																"Preclip" : 0.0,
 																"Treble" : 90.0
@@ -583,9 +583,10 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-23",
-									"maxclass" : "scope~",
+									"maxclass" : "live.scope~",
 									"numinlets" : 2,
-									"numoutlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 313.0, 789.0, 130.0, 130.0 ]
 								}
 
@@ -593,9 +594,10 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-24",
-									"maxclass" : "scope~",
+									"maxclass" : "live.scope~",
 									"numinlets" : 2,
-									"numoutlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 168.0, 789.0, 130.0, 130.0 ]
 								}
 
@@ -603,9 +605,10 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-25",
-									"maxclass" : "scope~",
+									"maxclass" : "live.scope~",
 									"numinlets" : 2,
-									"numoutlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 23.0, 789.0, 130.0, 130.0 ]
 								}
 
@@ -613,9 +616,10 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-22",
-									"maxclass" : "scope~",
+									"maxclass" : "live.scope~",
 									"numinlets" : 2,
-									"numoutlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 313.0, 644.5, 130.0, 130.0 ]
 								}
 
@@ -623,9 +627,10 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-20",
-									"maxclass" : "scope~",
+									"maxclass" : "live.scope~",
 									"numinlets" : 2,
-									"numoutlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 168.0, 644.5, 130.0, 130.0 ]
 								}
 
@@ -633,10 +638,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-21",
-									"maxclass" : "scope~",
+									"maxclass" : "live.scope~",
 									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 23.0, 644.5, 130.0, 130.0 ]
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 23.0, 644.5, 130.0, 130.0 ],
+									"range" : [ 0.0, 1.0 ]
 								}
 
 							}
@@ -844,20 +851,24 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-13",
-									"maxclass" : "scope~",
+									"maxclass" : "live.scope~",
 									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 168.0, 500.0, 130.0, 130.0 ]
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 168.0, 500.0, 130.0, 130.0 ],
+									"range" : [ 0.0, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"maxclass" : "scope~",
+									"maxclass" : "live.scope~",
 									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 23.0, 500.0, 130.0, 130.0 ]
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 23.0, 500.0, 130.0, 130.0 ],
+									"range" : [ 0.0, 1.0 ]
 								}
 
 							}
@@ -1306,13 +1317,13 @@
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -1420,14 +1431,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 179.0, 105.0, 1245.0, 893.0 ],
+						"rect" : [ 0.0, 26.0, 1245.0, 893.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1465,7 +1476,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1031.0, 235.5, 101.0, 37.0 ],
-									"presentation_linecount" : 2,
 									"text" : "or enable live updating"
 								}
 
@@ -2138,6 +2148,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 880.0, 243.0, 141.0, 22.0 ],
 									"text_width" : 116.0
 								}
@@ -2258,13 +2269,13 @@
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -2573,13 +2584,13 @@
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1 ],
-						"angle" : 270,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
