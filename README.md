@@ -7,7 +7,7 @@ I will slowly add more modules to this as I go through and convert them, general
 ## Requirements
 
 Live/M4L or Max (Mac/Windows).
-All devices work in 64-bit and M1/Universal Binary.
+All devices work in 64-bit and M1/Universal Binary. (If using Lofi on M1, it *must* be run in Native mode as the Rosetta version will crash due to the use of AVX)
 
 ## List of Devices
 
